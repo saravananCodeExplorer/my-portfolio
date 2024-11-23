@@ -18,8 +18,7 @@ const HeroSection = () => {
 
 
   {/* Hero Content */}
-<div className="relative z-10 flex flex-col items-center bg-gradient-to-t from-gray-900/70 via-gray-900/30 to-transparent p-6 rounded-lg shadow-lg 
-">
+<div className="relative z-10 flex flex-col items-center bg-gradient-to-t from-gray-900/70 via-gray-900/30 to-transparent p-6 rounded-lg shadow-lg ">
   <h2 className="text-4xl md:text-6xl font-extrabold mb-4">I am Saravanan</h2>
   <p className="text-xl md:text-2xl font-medium text-yellow-400">
     <Typewriter
