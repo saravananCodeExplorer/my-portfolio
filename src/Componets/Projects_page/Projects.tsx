@@ -23,7 +23,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-section bg-gray-900 text-white py-20 px-6">
+    <div className="projects-section bg-gray-700 text-white py-20 px-6">
       <div className="container mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl font-bold text-yellow-400 mb-8 text-center">
