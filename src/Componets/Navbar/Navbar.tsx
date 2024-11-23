@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black text-white shadow-md p-4">
+    <header className="bg-gray-900 text-white shadow-md p-4">
       <div className="container mx-auto flex justify-around items-center">
         {/* Logo */}
         <p className="text-3xl font-bold  hover:text-yellow-400 transition-transform transform hover:scale-90 cursor-pointer">
