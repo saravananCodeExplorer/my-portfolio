@@ -1,32 +1,27 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos'; // Ensure you have AOS installed for scroll animations
-import 'aos/dist/aos.css'; // Import AOS CSS
+import React from 'react';
 
 const About = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with a 1-second duration for the animations
-  }, []);
-
+ 
   return (
     <div className="about py-20 px-4 bg-gray-100 text-center">
       <h2
         className="text-3xl font-semibold mb-6 text-gray-900"
-        data-aos="fade-up" // Fade-up animation for the title
+        data-aos="fade-up" 
       >
         About Me
       </h2>
 
-      {/* Flexbox container for image and text */}
+    
       <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
-        {/* Image with animation */}
+        
         <div
           className="w-full md:w-1/2"
-          data-aos="zoom-in" // Zoom-in animation for the image
-          data-aos-delay="200" // Delay for the image animation
+          data-aos="zoom-in" 
+          data-aos-delay="200" 
         >
           <img
-            src="/path/to/your/image.jpg" // Replace with your image path
-            alt="About Me"
+            src="assets/about.jpg"
+            alt="About "
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-all duration-500"
           />
         </div>
