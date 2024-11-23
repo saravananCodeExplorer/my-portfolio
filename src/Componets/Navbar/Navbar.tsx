@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <h1>hai</h1>
-       <h1>Hello World!</h1>
+    
+       <h1>Navbar!</h1>
     </div>
   )
 }
