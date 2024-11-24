@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="bg-gray-900 text-white py-20 px-6 text-center">
+    <div className="bg-black text-white py-20 px-6 text-center">
       <h2 className="text-3xl font-bold text-yellow-400 mb-8" data-aos="fade-up">
         Contact Me
       </h2>
@@ -18,7 +18,7 @@ const Contact = () => {
             href="mailto:saravanansekar434@gmail.com"
             className="text-gray-300 hover:text-yellow-400 transition"
           >
-          saravanansekar434@gmail.com
+            saravanansekar434@gmail.com
           </a>
         </div>
         <div className="flex items-center">
@@ -39,7 +39,7 @@ const Contact = () => {
       {/* Social Media Links */}
       <div className="mt-12 flex justify-center space-x-6">
         <a
-          href="https://www.linkedin.com/in/saravanan"
+          href="https://www.linkedin.com/in/saravanansekar2003/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-yellow-400 transition"
@@ -47,7 +47,7 @@ const Contact = () => {
           LinkedIn
         </a>
         <a
-          href="https://github.com/saravanan"
+          href="https://github.com/saravananCodeExplorer?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-yellow-400 transition"
@@ -55,12 +55,12 @@ const Contact = () => {
           GitHub
         </a>
         <a
-          href="https://twitter.com/saravanan"
+          href="https://www.instagram.com/___s__a__r__o___/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-yellow-400 transition"
         >
-          Twitter
+          Instagram
         </a>
       </div>
     </div>

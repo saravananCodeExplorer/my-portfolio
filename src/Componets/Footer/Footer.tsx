@@ -1,23 +1,55 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6">
+    <footer className="bg-black text-gray-300 py-6">
       <div className="container mx-auto text-center">
         {/* Footer Logo */}
         <p className="text-2xl font-bold text-yellow-400 mb-4">My Website</p>
 
         {/* Links Section */}
         <div className="flex justify-center space-x-6 mb-4">
-          {['Home', 'About', 'Services', 'Contact'].map((item) => (
-            <a
-              key={item}
-              href={`/${item.toLowerCase()}`}
-              className="text-gray-300 hover:text-yellow-400 transition duration-300"
-            >
-              {item}
-            </a>
-          ))}
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `text-gray-300 hover:text-yellow-400 transition duration-300 ${
+                isActive ? 'text-yellow-400' : ''
+              }`
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `text-gray-300 hover:text-yellow-400 transition duration-300 ${
+                isActive ? 'text-yellow-400' : ''
+              }`
+            }
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              `text-gray-300 hover:text-yellow-400 transition duration-300 ${
+                isActive ? 'text-yellow-400' : ''
+              }`
+            }
+          >
+            Services
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              `text-gray-300 hover:text-yellow-400 transition duration-300 ${
+                isActive ? 'text-yellow-400' : ''
+              }`
+            }
+          >
+            Contact
+          </NavLink>
         </div>
 
         {/* Social Media Links */}
@@ -48,10 +80,7 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Copyright Section */}
-        <p className="text-sm">
-          © {new Date().getFullYear()} Saravanan. All Rights Reserved.
-        </p>
+       
       </div>
     </footer>
   );

@@ -8,7 +8,7 @@ const Service = () => {
   }, []);
 
   return (
-    <div className="services-section bg-gray-900 text-white py-20 px-6 text-center">
+    <div className="services-section bg-black text-white py-20 px-6 text-center">
       {/* Section Title */}
       <h2
         className="text-3xl font-bold text-yellow-400 mb-8"

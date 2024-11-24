@@ -8,10 +8,10 @@ const HeroSection = () => {
     <div className="hero">
       <section
         id="hero"
-        className="relative bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center text-center"
+        className="relative bg-black text-white min-h-screen flex flex-col items-center justify-center text-center"
       >
    <img
-  src="/assets/hero.jpg"
+  src="assets/hero.JPG"
   alt="Hero"
   className="absolute top-0 left-0 w-full h-full object-cover opacity-50 "
 />

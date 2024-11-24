@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, easing: 'ease-in-out', once: true });
+  }, []);
+
   const projects = [
     {
       title: "E-commerce Website",
@@ -23,10 +29,13 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-section bg-gray-700 text-white py-20 px-6">
+    <div className="projects-section bg-black text-white py-20 px-6">
       <div className="container mx-auto">
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-yellow-400 mb-8 text-center">
+        <h2
+          className="text-3xl font-bold text-yellow-400 mb-8 text-center"
+          data-aos="fade-up"
+        >
           Projects
         </h2>
 
@@ -36,6 +45,8 @@ const Projects = () => {
             <div
               key={index}
               className="project-card bg-gray-800 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-transform transform hover:scale-105 duration-300"
+              data-aos="fade-up"
+              data-aos-delay={index * 100} // Add delay for a staggered animation effect
             >
               <h3 className="text-xl font-semibold text-yellow-400 mb-4">
                 {project.title}
