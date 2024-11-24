@@ -13,7 +13,7 @@ const About = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end" data-aos="zoom-in" data-aos-delay="200">
           <img
-            src="./assets/contact.JPG"
+            src="./assets/aboutMee.jpg"
             alt="Portrait of Saravanan"
             className="w-3/4 md:w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500"
           />

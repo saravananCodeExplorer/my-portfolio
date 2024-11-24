@@ -8,6 +8,7 @@ import Service from './Componets/Service_page/Service';
 import Projects from './Componets/Projects_page/Projects';
 import Contact from './Componets/Contact_page/Contact';
 import Footer from './Componets/Footer/Footer';
+import Resume from './Componets/Resume/Resume';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/services" element={<Service />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

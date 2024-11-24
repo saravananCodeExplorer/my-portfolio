@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <p className="text-3xl font-bold hover:text-yellow-400 transition-transform transform hover:scale-90 cursor-pointer">
-          <NavLink to="/">Saro_Portfolio</NavLink>
+          <NavLink to="/">Saro:)</NavLink>
         </p>
 
         {/* Desktop Navigation */}
@@ -43,6 +43,20 @@ const Navbar = () => {
                 About
               </NavLink>
             </li>
+
+            <li>
+              <NavLink
+                to="/resume"
+                className={({ isActive }) =>
+                  `relative py-2 text-white after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:text-yellow-400 ${
+                    isActive ? 'text-yellow-400' : ''
+                  }`
+                }
+              >
+                Resume
+              </NavLink>
+            </li>
+            
             <li>
               <NavLink
                 to="/services"
@@ -137,6 +151,19 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/resume"
+              className={({ isActive }) =>
+                `relative pb-2 hover:text-yellow-400 transition-all duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full ${
+                  isActive ? 'text-yellow-400' : ''
+                }`
+              }
+              onClick={() => setIsOpen(false)}
+            >
+              Resume
             </NavLink>
           </li>
           <li>
