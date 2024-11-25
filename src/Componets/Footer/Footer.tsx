@@ -31,6 +31,16 @@ const Footer = () => {
             About
           </NavLink>
           <NavLink
+            to="/resume"
+            className={({ isActive }) =>
+              `text-gray-300 hover:text-yellow-400 transition duration-300 ${
+                isActive ? 'text-yellow-400' : ''
+              }`
+            }
+          >
+            Resume
+          </NavLink>
+          <NavLink
             to="/services"
             className={({ isActive }) =>
               `text-gray-300 hover:text-yellow-400 transition duration-300 ${
