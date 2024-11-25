@@ -1,5 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IoHomeOutline } from "react-icons/io5";
+import { IoPersonOutline } from "react-icons/io5";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { RiComputerLine } from "react-icons/ri";
+import { GrProjects } from "react-icons/gr";
+import { MdOutlineContactPhone } from "react-icons/md";
+
+
 
 const Footer = () => {
   return (
@@ -18,7 +26,8 @@ const Footer = () => {
               }`
             }
           >
-            Home
+            <IoHomeOutline size={30} />
+
           </NavLink>
           <NavLink
             to="/about"
@@ -28,7 +37,8 @@ const Footer = () => {
               }`
             }
           >
-            About
+            <IoPersonOutline size={30} />
+
           </NavLink>
           <NavLink
             to="/resume"
@@ -38,7 +48,7 @@ const Footer = () => {
               }`
             }
           >
-            Resume
+            <IoNewspaperOutline  size={30}/>
           </NavLink>
           <NavLink
             to="/services"
@@ -48,7 +58,7 @@ const Footer = () => {
               }`
             }
           >
-            Services
+          <RiComputerLine  size={30}/>
           </NavLink>
           <NavLink
             to="/projects"
@@ -58,7 +68,7 @@ const Footer = () => {
               }`
             }
           >
-            Projects
+        <GrProjects  size={30}/>
           </NavLink>
           <NavLink
             to="/contact"
@@ -68,7 +78,7 @@ const Footer = () => {
               }`
             }
           >
-            Contact
+          <MdOutlineContactPhone size={30} />
           </NavLink>
         </div>
 
