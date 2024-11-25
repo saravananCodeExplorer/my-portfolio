@@ -2,16 +2,23 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="about py-20 px-4 bg-black text-white text-center h-auto" >
+    <div className="about py-20 px-6 bg-black text-white">
       {/* Section Title */}
-      <h2 className="text-3xl font-bold mb-10 text-yellow-400" data-aos="fade-up">
+      <h2
+        className="text-4xl font-bold text-yellow-400 text-center mb-12"
+        data-aos="fade-up"
+      >
         About Me
       </h2>
 
-      {/* About Content */}
-      <div className="flex flex-col md:flex-row items-center md:items-start justify-between max-w-5xl mx-auto space-y-8 md:space-y-0">
+      {/* Content Wrapper */}
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Image Section */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end" data-aos="zoom-in" data-aos-delay="200">
+        <div
+          className="w-full md:w-1/2 flex justify-center"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >
           <img
             src="./assets/aboutMee.jpg"
             alt="Portrait of Saravanan"
@@ -19,18 +26,21 @@ const About = () => {
           />
         </div>
 
-      {/* Text Section */}
-
-<div className="w-full md:w-1/2 text-left md:pl-10" data-aos="fade-left" data-aos-delay="300">
-  <p className="text-xl text-gray-300 leading-relaxed md:leading-loose text-justify">
-    Hi, I'm <span className="text-yellow-400 font-bold">Saravanan</span> — a passionate software trainer and full-stack developer. With expertise in C, C++, Python, React, and full-stack development, I love mentoring aspiring developers and helping businesses grow through effective digital strategies.
-  </p>
-  <p className="text-xl text-gray-300 leading-relaxed md:leading-loose mt-6 text-justify">
-    My goal is to bridge the gap between ideas and technology by creating responsive designs, functional web applications, and delivering impactful training sessions.
-  </p>
-</div>
-
-
+        {/* Text Section */}
+        <div
+          className="w-full md:w-1/2"
+          data-aos="fade-left"
+          data-aos-delay="300"
+        >
+          <p className="text-lg text-gray-300 leading-relaxed mb-6 text-justify">
+            Hi, I'm <span className="text-yellow-400 font-bold">Saravanan</span>
+            — a passionate software trainer and full-stack developer. With expertise in C, C++, Python, React, and full-stack development, I thrive on mentoring aspiring developers and helping businesses excel through cutting-edge digital strategies.
+          </p>
+          <p className="text-lg text-gray-300 leading-relaxed text-justify">
+            My mission is to bridge the gap between ideas and technology by
+            crafting responsive designs, functional web applications, and delivering impactful training sessions.
+          </p>
+        </div>
       </div>
     </div>
   );
