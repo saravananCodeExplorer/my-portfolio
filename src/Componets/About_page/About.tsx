@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="about py-20 px-6 bg-black text-white">
       {/* Section Title */}
@@ -12,7 +21,10 @@ const About = () => {
       </h2>
 
       {/* Content Wrapper */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+      <div
+        className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12"
+        data-aos="fade-up"
+      >
         {/* Image Section */}
         <div
           className="w-full md:w-1/2 flex justify-center"
