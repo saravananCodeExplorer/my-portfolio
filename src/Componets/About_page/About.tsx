@@ -17,7 +17,6 @@ const About = () => {
         <div
           className="w-full md:w-1/2 flex justify-center"
           data-aos="zoom-in"
-          data-aos-delay="200"
         >
           <img
             src="./assets/aboutMee.jpg"
@@ -27,11 +26,7 @@ const About = () => {
         </div>
 
         {/* Text Section */}
-        <div
-          className="w-full md:w-1/2"
-          data-aos="fade-left"
-          data-aos-delay="300"
-        >
+        <div className="w-full md:w-1/2" data-aos="fade-left">
           <p className="text-lg text-gray-300 leading-relaxed mb-6 text-justify">
             Hi, I'm <span className="text-yellow-400 font-bold">Saravanan</span>
             — a passionate software trainer and full-stack developer. With expertise in C, C++, Python, React, and full-stack development, I thrive on mentoring aspiring developers and helping businesses excel through cutting-edge digital strategies.
