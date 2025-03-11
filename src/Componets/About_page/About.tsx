@@ -11,7 +11,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about py-20 px-6 bg-black text-white">
+    <div className="about py-20 px-6 bg-black text-white min-h-screen">
       {/* Section Title */}
       <h2
         className="text-4xl font-bold text-yellow-400 text-center mb-12"

@@ -29,7 +29,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-section bg-black text-white py-20 px-6">
+    <div className="projects-section bg-black text-white py-20 px-6 min-h-screen">
       <div className="container mx-auto">
         {/* Section Title */}
         <h2
