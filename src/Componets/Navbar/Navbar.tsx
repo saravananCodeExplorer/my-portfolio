@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <p className="text-3xl font-bold hover:text-yellow-400 transition-transform transform hover:scale-90 cursor-pointer">
-          <NavLink to="/">Saro:)</NavLink>
+          <NavLink to="/">SaravananSekar</NavLink>
         </p>
 
         {/* Desktop Navigation */}
