@@ -10,7 +10,7 @@ const Resume = () => {
   return (
     <div className="font-sans text-white leading-relaxed p-6 bg-black">
       <h1
-        className="text-3xl font-bold text-center underline mb-6 text-yellow-500"
+        className="text-3xl font-bold text-center  mb-6 text-yellow-500"
         data-aos="fade-in"
       >
         Resume
@@ -19,7 +19,7 @@ const Resume = () => {
       <section className="mb-6" data-aos="fade-right">
         <h2 className="text-xl font-semibold text-yellow-500 mb-2">Career Objective</h2>
         <p>
-          I am a motivated junior software developer with a strong foundation in React full-stack
+          I am a motivated  software developer with a strong foundation in React full-stack
           development and digital marketing. I am eager to leverage my technical skills and marketing
           insights to build innovative web applications that enhance user experience and drive business
           growth. I am committed to continuous learning and problem-solving to deliver efficient, user-
@@ -56,10 +56,68 @@ const Resume = () => {
           </li>
         </ul>
       </section>
+      <section className="mb-6" data-aos="fade-up">
+  <h2 className="text-xl font-semibold text-yellow-500 mb-2">Projects</h2>
+
+  <div className="mb-4">
+    <h3 className="font-bold text-lg">Portfolio Website</h3>
+    <p>
+      A personal portfolio website showcasing my skills and projects. Built with React and Tailwind CSS,
+      with additional styling from Bootstrap for enhanced design.
+    </p>
+    <p className="mt-1">
+      <span className="font-bold">Technologies:</span> React, Tailwind CSS, Bootstrap
+    </p>
+    <a
+      href="https://github.com/saravananCodeExplorer/my-portfolio"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-yellow-400 underline"
+    >
+      View on GitHub
+    </a>
+  </div>
+
+  <div className="mb-4">
+    <h3 className="font-bold text-lg">E-commerce Website with Frontend & Backend Integration</h3>
+    <p>
+      A modern e-commerce application featuring seamless CRUD operations, user authentication, and admin dashboard.
+      Built using React for the frontend, Node.js for the backend, and MySQL for the database.
+    </p>
+    <p className="mt-1">
+      <span className="font-bold">Technologies:</span> React, Node.js, MySQL
+    </p>
+    <a
+      href="https://github.com/saravananCodeExplorer/FullStack/tree/main/17.REACT-NODE-%20CRUD-APP"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-yellow-400 underline"
+    >
+      View on GitHub
+    </a>
+  </div>
+
+  <div>
+    <h3 className="font-bold text-lg">Full-Stack E-Commerce Web App</h3>
+    <p>
+      A full-stack application with React frontend, Node.js + Express backend, and MySQL database.
+      Features customer & admin login (JWT), secure signup with bcrypt, product management with image upload using Multer.
+    </p>
+    <p className="mt-1">
+      <span className="font-bold">Technologies:</span> React, Express, Node.js, MySQL, JWT, Multer, Bcrypt
+    </p>
+      <a
+      href="https://github.com/saravananCodeExplorer/ecommerce-react"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-yellow-400 underline">  View on GitHub</a>
+  </div>
+</section>
+
 
       <section className="mb-6" data-aos="zoom-in">
         <h2 className="text-xl font-semibold text-yellow-500 mb-2">Experience</h2>
-        <h3 className="font-semibold text-lg">Junior Software Trainer</h3>
+        <h3 className="font-semibold text-lg">Software Trainer & Developer</h3>
         <p className="text-gray-400"><strong>ISYSWAY Technologies</strong><br />May 2024 - Present</p>
         <ul className="list-disc pl-6 mt-2">
           <li>Experienced in building and maintaining responsive websites and web applications.</li>
@@ -78,7 +136,7 @@ const Resume = () => {
         <h2 className="text-xl font-semibold text-yellow-500 mb-2">Personal Details</h2>
         <ul className="list-none">
           <li><span className="font-bold">Name:</span> S. Saravanan</li>
-          <li><span className="font-bold">Father's Name:</span> R. Sekar</li>
+          <li><span className="font-bold">Father's Name:</span> S. Sekar</li>
           <li><span className="font-bold">Date of Birth:</span> 19/06/2003</li>
           <li><span className="font-bold">Religion:</span> Hindu</li>
           <li><span className="font-bold">Nationality:</span> Indian</li>
@@ -90,7 +148,11 @@ const Resume = () => {
         <h2 className="text-xl font-semibold text-yellow-500 mb-2">Contact</h2>
         <ul className="list-none">
           <li><span className="font-bold">Email:</span> <a href="mailto:saravanansekar434@gmail.com" className="text-yellow-500 underline">saravanansekar434@gmail.com</a></li>
+          
           <li><span className="font-bold">LinkedIn:</span> <a href="https://linkedin.com/in/saravanansekar2003" target="_blank" rel="noopener noreferrer" className="text-yellow-500 underline">linkedin.com/in/saravanansekar2003/</a></li>
+           <li><span className="font-bold">GitHub:</span> <a href="https://github.com/saravananCodeExplorer/" target="_blank" rel="noopener noreferrer" className="text-yellow-500 underline">https://github.com/saravananCodeExplorer/</a></li>
+          
+          
           <li><span className="font-bold">Phone:</span> +91 6380190949</li>
         </ul>
       </section>

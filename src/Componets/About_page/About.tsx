@@ -40,12 +40,20 @@ const About = () => {
         {/* Text Section */}
         <div className="w-full md:w-1/2" data-aos="fade-left">
           <p className="text-lg text-gray-300 leading-relaxed mb-6 text-justify">
-            Hi, I'm <span className="text-yellow-400 font-bold">Saravanan</span>
-            — a passionate software trainer and full-stack developer. With expertise in C, C++, Python, React, and full-stack development, I thrive on mentoring aspiring developers and helping businesses excel through cutting-edge digital strategies.
+            Hi, I'm{" "}
+            <span className="text-yellow-400 font-bold">Saravanan Sekar</span> — a
+            passionate software trainer and junior full-stack developer with
+            expertise in <span className="text-yellow-400 font-medium">React</span> and
+            full-stack development. I thrive on mentoring aspiring developers
+            and building responsive, user-friendly web applications that bridge
+            the gap between ideas and technology.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed text-justify">
-            My mission is to bridge the gap between ideas and technology by
-            crafting responsive designs, functional web applications, and delivering impactful training sessions.
+            With a strong foundation in full-stack development, I am committed
+            to continuous learning and solving real-world problems through clean
+            code and innovative solutions. I am seeking a challenging role in a
+            forward-thinking company where I can contribute to impactful
+            projects, enhance user experiences, and grow as a developer.
           </p>
         </div>
       </div>
