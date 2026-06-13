@@ -33,7 +33,7 @@ const Resume = () => {
         <ul className="list-disc pl-6">
           <li><span className="font-bold">Programming Languages:</span> C, C++, Python, JavaScript, PHP</li>
           <li><span className="font-bold">Web Development:</span> HTML, CSS, Bootstrap, jQuery, React.js</li>
-          <li><span className="font-bold">Databases:</span> MySQL</li>
+          <li><span className="font-bold">Databases:</span> MySQL,MongoDB</li>
           <li>
             <span className="font-bold">Digital Marketing:</span> SEO, Content Creation, SMM, Google Ads, Facebook & Meta Ads,
             LinkedIn Ads, Email Marketing, Ad Analytics & AI
@@ -43,19 +43,42 @@ const Resume = () => {
         </ul>
       </section>
 
-      <section className="mb-6" data-aos="fade-up">
-        <h2 className="text-xl font-semibold text-yellow-500 mb-2">Education</h2>
-        <ul className="list-none">
-          <li className="mb-3">
-            <span className="font-bold">Raja Serfoji Government College:</span> BSc Computer Science (75% - CGPA: 7.5)<br />
-            <span className="text-gray-400">Bharathidasan University, Thanjavur | 2020-2023</span>
-          </li>
-          <li>
-            <span className="font-bold">Government HR Sec School, Elakurichi:</span> Higher Secondary Certificate (72.33%)<br />
-            <span className="text-gray-400">Year: 2020</span>
-          </li>
-        </ul>
-      </section>
+    <section className="mb-6" data-aos="fade-up">
+  <h2 className="text-xl font-semibold text-yellow-500 mb-2">Education</h2>
+
+  <ul className="list-none">
+    <li className="mb-3">
+      <span className="font-bold">
+        Alagappa University College of Education, Karaikudi:
+      </span>{" "}
+      Master of Computer Applications (MCA)
+      <br />
+      <span className="text-gray-400">
+        Alagappa University | 2024 - 2026
+      </span>
+    </li>
+
+    <li className="mb-3">
+      <span className="font-bold">
+        Raja Serfoji Government College:
+      </span>{" "}
+      BSc Computer Science (72.09% - CGPA: 7.7)
+      <br />
+      <span className="text-gray-400">
+        Bharathidasan University, Thanjavur | 2020 - 2023
+      </span>
+    </li>
+
+    <li>
+      <span className="font-bold">
+        Government HR Sec School, Elakurichi:
+      </span>{" "}
+      Higher Secondary Certificate (72.33%)
+      <br />
+      <span className="text-gray-400">Year: 2020</span>
+    </li>
+  </ul>
+</section>
       <section className="mb-6" data-aos="fade-up">
   <h2 className="text-xl font-semibold text-yellow-500 mb-2">Projects</h2>
 
@@ -115,17 +138,41 @@ const Resume = () => {
 </section>
 
 
-      <section className="mb-6" data-aos="zoom-in">
-        <h2 className="text-xl font-semibold text-yellow-500 mb-2">Experience</h2>
-        <h3 className="font-semibold text-lg">Software Trainer & Developer</h3>
-        <p className="text-gray-400"><strong>ISYSWAY Technologies</strong><br />May 2024 - Present</p>
-        <ul className="list-disc pl-6 mt-2">
-          <li>Experienced in building and maintaining responsive websites and web applications.</li>
-          <li>Proficient in HTML, CSS, JavaScript, and React, with a strong focus on creating intuitive, user-friendly designs.</li>
-          <li>Conducted training sessions to educate junior developers and clients on web development best practices, technical concepts, and project workflows.</li>
-          <li>Successfully balanced development responsibilities with instructional roles, maintaining the company's website and ensuring project goals are met with high standards.</li>
-        </ul>
-      </section>
+     <section className="mb-6" data-aos="zoom-in">
+  <h2 className="text-xl font-semibold text-yellow-500 mb-2">Experience</h2>
+
+  <h3 className="font-semibold text-lg">
+    Freelance Full-Stack Developer & Software Trainer
+  </h3>
+
+  <p className="text-gray-400">
+    Self-Employed <br />
+    May 2024 - Present
+  </p>
+
+  <ul className="list-disc pl-6 mt-2">
+    <li>
+      Develop and maintain responsive websites and web applications for clients
+      using modern web technologies.
+    </li>
+    <li>
+      Build user-friendly interfaces with React, JavaScript, HTML, CSS, and
+      Tailwind CSS while ensuring performance and scalability.
+    </li>
+    <li>
+      Design and implement full-stack solutions using Node.js, Express.js,
+      MySQL, and MongoDB.
+    </li>
+    <li>
+      Provide software training and mentorship to students and aspiring
+      developers, focusing on practical, industry-oriented skills.
+    </li>
+    <li>
+      Collaborate with clients to understand requirements, deliver customized
+      solutions, and ensure project success.
+    </li>
+  </ul>
+</section>
 
       <section className="mb-6" data-aos="fade-right">
         <h2 className="text-xl font-semibold text-yellow-500 mb-2">Certifications</h2>
