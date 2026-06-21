@@ -41,7 +41,7 @@ const About = () => {
         <div className="w-full md:w-1/2" data-aos="fade-left">
          <p className="text-lg text-gray-300 leading-relaxed mb-6 text-justify">
   Hi, I'm <span className="text-yellow-400 font-bold">Saravanan Sekar</span>,
-  a Freelance Full-Stack Developer and Software Trainer with a passion for
+  a Software Developer and Software Trainer with a passion for
   building innovative web applications and empowering future developers.
   I specialize in React, JavaScript, and modern web technologies,
   delivering scalable and user-focused solutions for clients and businesses.

@@ -81,6 +81,47 @@ const Resume = () => {
 </section>
       <section className="mb-6" data-aos="fade-up">
   <h2 className="text-xl font-semibold text-yellow-500 mb-2">Projects</h2>
+  <div className="mb-4">
+  <h3 className="font-bold text-lg">
+    Identity and Access Management (IAM) Platform
+  </h3>
+
+  <p>
+    Built a full-stack Identity and Access Management (IAM) platform featuring
+    JWT authentication, Multi-Factor Authentication (MFA), and Role-Based
+    Access Control (RBAC).
+  </p>
+
+  <ul className="list-disc pl-6 mt-2">
+    <li>
+      Developed multi-tenant organization management, invitation-based
+      onboarding, and secure session handling using Redis and MongoDB.
+    </li>
+    <li>
+      Implemented asynchronous email processing and background job queues with
+      Redis and Bull for scalable notification delivery.
+    </li>
+    <li>
+      Created responsive authentication and administration interfaces using
+      Next.js, React, Tailwind CSS, and shadcn/ui.
+    </li>
+    <li>
+      Implemented secure authentication workflows and permission management
+      across organizations and users.
+    </li>
+    <li>
+      Designed scalable backend architecture with REST APIs and database
+      integration.
+    </li>
+  </ul>
+
+  <p className="mt-2">
+    <span className="font-bold">Technologies:</span> Next.js, React, Node.js,
+    Express.js, PostgreSQL, Redis, Bull, JWT, Tailwind CSS, shadcn/ui
+  </p>
+
+ 
+</div>
 
   <div className="mb-4">
     <h3 className="font-bold text-lg">Portfolio Website</h3>
@@ -139,41 +180,48 @@ const Resume = () => {
 
 
      <section className="mb-6" data-aos="zoom-in">
-  <h2 className="text-xl font-semibold text-yellow-500 mb-2">Experience</h2>
+  <h2 className="text-xl font-semibold text-yellow-500 mb-2">
+    Work Experience
+  </h2>
 
   <h3 className="font-semibold text-lg">
-    Freelance Full-Stack Developer & Software Trainer
+    Software Developer
   </h3>
 
   <p className="text-gray-400">
-    Self-Employed <br />
-    May 2024 - Present
+    May 2024 – Present
   </p>
 
   <ul className="list-disc pl-6 mt-2">
     <li>
-      Develop and maintain responsive websites and web applications for clients
-      using modern web technologies.
+      Designed and maintained scalable, responsive web applications using
+      HTML5, CSS3, JavaScript (ES6+), and React.js.
     </li>
     <li>
-      Build user-friendly interfaces with React, JavaScript, HTML, CSS, and
-      Tailwind CSS while ensuring performance and scalability.
+      Built reusable React components and managed application state using
+      Zustand.
     </li>
     <li>
-      Design and implement full-stack solutions using Node.js, Express.js,
-      MySQL, and MongoDB.
+      Developed and integrated RESTful APIs using Node.js and Express.js.
     </li>
     <li>
-      Provide software training and mentorship to students and aspiring
-      developers, focusing on practical, industry-oriented skills.
+      Managed relational data with MySQL, including schema design and CRUD
+      operations.
     </li>
     <li>
-      Collaborate with clients to understand requirements, deliver customized
-      solutions, and ensure project success.
+      Implemented efficient data fetching and caching using TanStack Query
+      (React Query).
+    </li>
+    <li>
+      Collaborated with cross-functional teams to improve UI/UX, performance,
+      and cross-browser compatibility.
+    </li>
+    <li>
+      Followed clean code practices, performed debugging, and participated in
+      code reviews to ensure high-quality deliverables.
     </li>
   </ul>
 </section>
-
       <section className="mb-6" data-aos="fade-right">
         <h2 className="text-xl font-semibold text-yellow-500 mb-2">Certifications</h2>
         <p>Web Development Professional Certificate<br />Issued by <span className="font-bold">T4TEQ Software Solutions</span></p>
